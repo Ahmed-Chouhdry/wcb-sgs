@@ -7,12 +7,20 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { CareersComponent } from './careers/careers.component';
+import { NewsComponent } from './news/news.component';
+import { SearchComponent } from './search/search.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CareersComponent,
+    NewsComponent,
+    SearchComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

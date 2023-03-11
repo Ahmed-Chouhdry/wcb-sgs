@@ -1,0 +1,39 @@
+.section-1-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-color: #49738b;
+}
+.container {
+    max-width: 1531px;
+}
+.section-1-heading{
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.contact-p{
+    font-size: 20px;
+}
+.form-m{
+margin-bottom: 20px;
+}
+.optional{
+    font-style: italic;
+    color: #9f9f9f;
+}
+.check-tect{
+    color: #ca4300;
+}
+.form-btn{
+    background-color: #ca4300;
+color: white;
+width: 165px;
+height: 46px;
+font-size: 18px;
+}
