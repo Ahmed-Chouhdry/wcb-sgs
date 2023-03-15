@@ -37,3 +37,8 @@ width: 165px;
 height: 46px;
 font-size: 18px;
 }
+@media screen and (max-width:1440px) {
+    .container {
+        max-width: 1367px;
+    }
+}

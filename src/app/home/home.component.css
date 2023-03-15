@@ -7,6 +7,7 @@ a {
     max-width: 1531px;
 }
 
+
 .section-bg {
     background-image: url(../../assets/img/Space-Backgrounds.webp);
     background-repeat: no-repeat;
@@ -22,11 +23,16 @@ a {
 
 h1 {
     color: #fff;
+    font-size: 56px;
+    line-height: 1.05;
+    font-weight: 400;
 }
 
 .heading-text {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.05;
+    font-weight: 400;
 }
 
 .button-about {
@@ -52,7 +58,7 @@ h1 {
 
 .card-1 {
     /* width: 635px; */
-    margin-top: 30px;
+    margin-top: 23px;
 }
 
 .card-text-1 {
@@ -218,8 +224,8 @@ h1 {
 
 /* section-5  */
 .section-5-p {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .section-5-heading {
@@ -241,7 +247,20 @@ h1 {
     
     
 }
+.col-6-block{
+    display: flex;
+}
 
+@media screen and (max-width:1440px) {
+    .container {
+        max-width: 1367px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 43px;
+        font-weight: 500;
+    }
+}
 
 @media screen and (max-width:1270px) {
     .section-2-card{
@@ -259,4 +278,135 @@ h1 {
         margin-right: 10px;
         margin-bottom: 0;
     }
+   
 }
+@media screen and (max-width:710px) {
+    .col-6-block{
+        display: none !important;
+    }
+   
+}
+@media screen and (max-width:425px) {
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
+    .Heading{
+        margin-top: 120px;
+    }
+    .container {
+        max-width: 390px;
+    }
+    .heading-text {
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:425px) {
+    h1 {
+        color: #fff;
+        font-size: 32px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
+    .Heading{
+        margin-top: 120px;
+    }
+    .container {
+        max-width: 340px;
+    }
+    .heading-text {
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
+    .section-4-p{
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+    .section-4-heading{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .section-4-text {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .section-5-heading{
+        font-size: 24px;
+       
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:375px) {
+    .container {
+        max-width: 296px;
+    }
+    .section-4-p{
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+    .section-4-heading{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .section-4-text {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .section-5-heading{
+        font-size: 24px;
+       
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 296px;
+    }
+    .section-4-p{
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+    .section-4-heading{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .section-4-text {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .section-5-heading{
+        font-size: 24px;
+       
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+

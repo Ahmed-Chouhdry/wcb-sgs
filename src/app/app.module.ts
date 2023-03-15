@@ -11,6 +11,7 @@ import { CareersComponent } from './careers/careers.component';
 import { NewsComponent } from './news/news.component';
 import { SearchComponent } from './search/search.component';
 import { ContactComponent } from './contact/contact.component';
+import { TabesComponent } from './tabes/tabes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     CareersComponent,
     NewsComponent,
     SearchComponent,
-    ContactComponent
+    ContactComponent,
+    TabesComponent
   ],
   imports: [
     BrowserModule,

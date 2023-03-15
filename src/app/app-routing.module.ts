@@ -5,7 +5,7 @@ import { CareersComponent } from './careers/careers.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { SearchComponent } from './search/search.component';
-
+import { TabesComponent } from './tabes/tabes.component';
 
 
 const routes: Routes = [
@@ -14,7 +14,8 @@ const routes: Routes = [
   {path:"careers", component: CareersComponent},
   {path:"news", component: NewsComponent},
   {path:"contact", component: ContactComponent},
-  {path:"search", component: SearchComponent}
+  {path:"search", component: SearchComponent},
+  {path:"tabes", component: TabesComponent}
 
 ];
 

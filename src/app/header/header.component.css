@@ -19,8 +19,7 @@ a{
 }
 .top-header{
     background-color: #3c515b;
-    padding: 8px;
-    border-bottom: solid 1px black;
+    padding: 5px;
 }
 .header-nav{
     border-bottom: solid 1px black;
@@ -35,8 +34,9 @@ top: 0;
     background-color: #ca4300;
     border: 0px;
     border-radius: 2px;
-    width: 110px;
-    height: 45px;
+    width: 106px;
+    height: 43px;
+    font-size: 15px;
     color: white;
 }
 .btn-outline-success:hover{
@@ -53,7 +53,11 @@ top: 0;
 .btn-search:hover{
     color: #ca4300;
 }
-
+@media screen and (max-width:1440px) {
+    .container {
+        max-width: 1367px;
+    }
+}
 @media screen and (max-width:660px) {
     .top-header{
         display: none;
