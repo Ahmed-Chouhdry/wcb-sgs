@@ -240,6 +240,166 @@ margin-bottom: 100px;
 .view-btn:hover {
     color: #ca4300;
 }
+/* section-2  */
+.p-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg-color{
+    background-color: #f5f9fc;
+}
+.img-tabe{
+    border-radius: 50%;
+    width: 260px;
+}
+.card-body{
+    padding-top: 43px;
+    padding-bottom:43px ;
+}
+.card-contant{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* section-3  */
+.caeds-tabe{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tab-cardplay{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.heading-tabs{
+    font-size: 32px;
+    font-weight: bold;
+}
+.tab-p{
+    color: #49738b;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.tab-play-btn{
+    position: absolute;
+    width: 50px;
+    background-color: #ffffff69;
+    color: white;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-play-btn:hover{
+    background-color: #ca4300;
+}
+/* section-4  */
+.tab-section-4-btn{
+    background-color: #ca4300;
+    border: 0;
+    height: 50px;
+    width: 280px;
+    color: white;
+font-weight: 500;
+margin-top: 15px;
+}
+.tab-section-4-playbtn{
+    position: absolute;
+    width: 50px;
+    background-color: #332f2f99;
+    color: white;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-section-4-playbtn:hover{
+    background-color: #ca4300;
+}
+.section-4-text{
+    margin-top: 30px;
+}
+/* section-5  */
+.tab-link{
+    color: #ca4300;
+    
+}
+.tab-link:hover{
+border-bottom:solid 1px #ca4300;
+}
+/* section-7  */
+.tab-bg-img-1{
+    background:linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/tab-col-bg-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.tab-bg-img-2{
+    background:linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/tab-col-bg-3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.tab-bg-img-3{
+    background:linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/tab-col-bg-4.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.tab-bg-img-4{
+    background:linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/tab-col-bg-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.tab-bg-card{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.tab-link-card{
+    border: solid 1px black;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-cloud-arrow-down{
+    color: #ca4300;
+}
+.bg-tab{
+    background:linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/tab-card-img-5.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 @media screen and (max-width:1440px) {
     .container {
         max-width: 1369px;
@@ -250,5 +410,29 @@ margin-bottom: 100px;
         font-size: 45px;
         margin-top: 15px;
         margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .recuitment-p{
+        font-size: 14px;
+    }
+    .heading-tabs {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:425px) {
+    .careers{
+        margin: 0px !important;
+    }
+    .recuitment-p{
+        font-size: 12px;
+    }
+    .tab-cardplay {
+        margin-bottom: 50px;
+    }
+    .section-2-h3 {
+        font-weight: 700;
+        font-size: 22px;
     }
 }
