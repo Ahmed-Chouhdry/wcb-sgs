@@ -96,6 +96,16 @@ li{
     right: 30px;
   
   }
+  .bottom-footer{
+background-color: black;
+height: 90px;
+color: white;
+display: flex;
+align-items: center;
+  }
+  .bottom-footer-link{
+    font-size: 12px;
+  }
 @media screen and (max-width:1440px) {
     .container {
         max-width: 1392px;
