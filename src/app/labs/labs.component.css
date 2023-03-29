@@ -1,0 +1,36 @@
+.select-press{
+    height: 50px;
+    border-radius: 8px 8px 0px 0px;
+    }
+    .select-press:hover{
+        border-color: black;
+    }
+    
+    .press-results{
+        color: #3c515b;
+    }
+    .search-btn{
+        color: #ca4300;
+    }
+    .search-shadow{
+        border-bottom: solid 1px;
+        box-shadow: 2px black;
+        padding: 7px;
+    }
+    .press-card-img{
+        width: 85px;
+        height: 40px;
+    }
+    .sgs-border{
+        border-right: solid 1px rgb(210 210 210);
+    }
+    .press-button{
+        font-size: 12px;
+        font-weight: 600;
+        color: #ca4300;
+
+    }
+   
+    .press-button:hover{
+    color: #b03500;
+    }

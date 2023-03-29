@@ -14,6 +14,16 @@ body{
     position: relative;
     background: linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/news-bg.avif);
 }
+.boxes{
+  
+    transition: all 1s;  /* lets make it smooth */
+    
+}
+.boxes:hover{
+    /* background-color: crimson; */
+    transition: all .5s;
+    transform : translateY(-10px);
+}
 .section-1-heading{
     font-size: 59px;
     font-weight: 400;

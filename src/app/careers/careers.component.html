@@ -19,7 +19,7 @@
 </section>
 <div class="">
     <div class="">
-        <div class="tabset ">
+        <div class="tabset tab-careers ">
             <!-- Tab 1 -->
             <input type="radio" name="tabset" id="tab1" aria-controls="careers" checked>
             <label for="tab1" class="careers">Careers</label>
@@ -72,7 +72,7 @@
                                     <div
                                         class="careers-bg-play align-items-center d-flex justify-content-center ">
                                         <img src="../../assets/img/careers-play.avif" alt="" class="img-fluid">
-                                        <button class="tab-section-4-playbtn">
+                                        <button class="tab-section-4-playbtn" (click)="open(mymodal)">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                                 <path
@@ -84,7 +84,26 @@
                                 <div class="col-md-1">
 
                                 </div>
+                                <!-- <button class="btn btn-outline-success" type="button" (click)="open(mymodal)" >Model Open</button> -->
+
+                                <ng-template #mymodal let-modal class="">  
+                                  <div class="d-flex justify-content-end bg-transparent border-0">  
+                                    
+                                    <button type="button" class="close border-0  bg-transparent" aria-label="Close" (click)="modal.dismiss('Cross click')">  
+                                     <span class="fw-bold me-4">   Close</span>
+                                      <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg></span>  
+                                    </button>  
+                                  </div>  
+                                  <div class="modal-body bg-transparent border-0">  
+                                    <iframe class="w-100 h-100" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                  </div>  
+                                 
+                                </ng-template>  
                             </div>
+
                             <div class="row">
                                 <div class="col-md-3">
 
@@ -284,7 +303,7 @@
                                                 work here.
                                             </p>
 
-                                            <button type="button" class="Culture-btn" ou>People & Culture<span>
+                                            <button type="button" class="Culture-btn smooth-inset-box-shadow" ou>People & Culture<span>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                         fill="currentColor"
                                                         class="bi bi-arrow-right-short arrow-rihgt ms-2"
@@ -361,7 +380,7 @@
                                             world, we want to hear from you.
                                         </p>
                                         <div class="d-flex justify-content-center">
-                                            <button type="button" class="view-btn">See vacancies<span>
+                                            <button type="button" class="view-btn smooth-inset-box-shadow">See vacancies<span>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                         fill="currentColor"
                                                         class="bi bi-arrow-right-short arrow-rihgt ms-2"
@@ -580,7 +599,7 @@
                                     Find your ideal role
                                 </h1>
                                 <div class="d-flex justify-content-center">
-                                    <button  class="tab-developing-btn">Search job opportunities <span ><svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right-short arrow-rihgt ms-2"><path  fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path></svg></span></button>
+                                    <button  class="tab-developing-btn smooth-inset-box-shadow">Search job opportunities <span ><svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right-short arrow-rihgt ms-2"><path  fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path></svg></span></button>
                                 </div>
                             </div>
                             
@@ -710,7 +729,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-12">
                                     <div class="align-items-center d-flex justify-content-center position-relative">
                                         <img src="../../assets/img/tab-card-img-1.avif" alt="" class="img-fluid">
-                                        <button class="tab-play-btn">
+                                        <button class="tab-play-btn" (click)="open(mymodal)">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                                 <path
@@ -731,7 +750,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-12">
                                     <div class="align-items-center d-flex justify-content-center position-relative">
                                         <img src="../../assets/img/tab-card-img-2.avif" alt="" class="img-fluid">
-                                        <button class="tab-play-btn">
+                                        <button class="tab-play-btn" (click)="open(mymodal)">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                                 <path
@@ -752,7 +771,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-12">
                                     <div class="align-items-center d-flex justify-content-center position-relative">
                                         <img src="../../assets/img/tab-card-img-3.avif" alt="" class="img-fluid">
-                                        <button class="tab-play-btn">
+                                        <button class="tab-play-btn" (click)="open(mymodal)">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                                 <path
@@ -773,7 +792,7 @@
                                 <div class="col-lg-3 col-md-4 col-sm-12">
                                     <div class="align-items-center d-flex justify-content-center position-relative">
                                         <img src="../../assets/img/tab-card-img-4.avif" alt="" class="img-fluid">
-                                        <button class="tab-play-btn">
+                                        <button class="tab-play-btn" (click)="open(mymodal)">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                                 <path
@@ -803,7 +822,7 @@
                                     <h2 class="heading-tabs">
                                         Hear from our experts
                                     </h2>
-                                    <button class="tab-section-4-btn">
+                                    <button class="tab-section-4-btn smooth-inset-box-shadow">
                                         Watch more expert interviews <span><svg xmlns="http://www.w3.org/2000/svg"
                                                 width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
                                                 class="bi bi-arrow-right-short arrow-rihgt ms-2">
@@ -817,7 +836,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="align-items-center d-flex justify-content-center bg-tab">
                                     <!-- <img src="../../assets/img/tab-card-img-5.avif" alt="" class="img-fluid"> -->
-                                    <button class="tab-section-4-playbtn">
+                                    <button class="tab-section-4-playbtn" (click)="open(mymodal)">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                             <path
@@ -834,7 +853,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="align-items-center d-flex justify-content-center bg-tab">
                                     <!-- <img src="../../assets/img/tab-card-img-5.avif" alt="" class="img-fluid"> -->
-                                    <button class="tab-section-4-playbtn">
+                                    <button class="tab-section-4-playbtn" (click)="open(mymodal)">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                             <path
@@ -1034,7 +1053,7 @@
 
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <button _ngcontent-ehi-c18="" class="tab-section-4-btn">Search job opportunities
+                                        <button _ngcontent-ehi-c18="" class="tab-section-4-btn smooth-inset-box-shadow">Search job opportunities
                                             <span _ngcontent-ehi-c18=""><svg _ngcontent-ehi-c18=""
                                                     xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                     fill="currentColor" viewBox="0 0 16 16"
@@ -1190,8 +1209,8 @@
 
                                 </div>
                                 <div class="col-lg-8 col-md-12 ">
-                                    <h2 class="fw-bold mb-4">Related Links</h2>
-                                    <div class="cardItem">
+                                    <h3 class="fw-bold mb-4 fs-4">Related Links</h3>
+                                    <div class="boxes">
                                         <a class="tab-link-card text-black ">
                                             <div>
                                                 <h5 class="fw-bold m-0"> SGS Recruitment Process</h5>
@@ -1268,3 +1287,4 @@
     </div>
 </div>
 <!-- <section-2> -->
+  

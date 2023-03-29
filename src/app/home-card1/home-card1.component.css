@@ -1,0 +1,233 @@
+.container {
+    max-width: 1531px;
+}
+
+.careers-bg{
+    background: linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/home-card-bg-img.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+display: flex;
+align-items: center;
+}
+
+
+.Careers-heading{
+    font-weight: 400;
+    color: white;
+    font-size: 60px;
+}
+
+
+/* section-2  */
+.home-bg-color{
+    background-color: #fafafa;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.home-card-icon{
+color: #555;
+}
+.home-card-icons{
+    border: solid 1px #dcdcdc;
+    align-items: center;
+}
+
+/* section-3  */
+.home-card-margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mobile-number{
+    text-decoration: none;
+    color:#ca4300 ;
+}
+.mobile-number:hover{
+    border-bottom:solid 1px #ca4300 ;
+
+}
+.section-3-card {
+    display: flex;
+    /* margin-bottom: 50px; */
+}
+.card-border {
+    border: solid 1px #dcdcdc;
+}
+.section-h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+
+.arrow-rihgt {
+    color: #ca4300;
+    margin-right: 20px;
+}
+
+.news-button{
+    border: 0;
+    height: 50px;
+    width: 160px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #3c515b;
+    color:white;
+}
+
+
+.cards {
+    display: flex;
+}
+
+/* .cards-img {
+    height: 180px;
+} */
+
+.cards-text-1 {
+    color: #49738b;
+    font-size: 14px;
+}
+
+.cards-text-2 {
+    font-size: 23px;
+    color: black;
+    margin: 0 0 12px;
+    font-weight: bold;
+}
+
+.cards-p {
+    color: #555;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.Features{
+    background-color:#d8e1e6 ;
+}
+
+.View-All{
+    border: 0;
+    height: 50px;
+    width: 110px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #3c515b;
+    color:white;
+}
+.cards-text-3 {
+    color: #49738b;
+    /* margin: 0 0 20px; */
+    font-size: 14px;
+}
+.cards-border{
+padding-bottom: 10px;
+margin-bottom: 30px;
+border-bottom: solid 1px #ca4300;
+}
+.cards-img {
+    height: 240px;
+}
+.home-margin{
+    background-color: black;
+}
+.Send-button{
+    border: 0;
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #ca4300;
+    color:white;
+}
+.img-rounded{
+    border-radius: 50%;
+    width: 280px;
+}
+.boxes:hover{
+    /* background-color: crimson; */
+    transition: all .5s;
+    transform : translateY(-10px);
+}
+.boxes{
+  
+    transition: all 1s;  /* lets make it smooth */
+    
+}
+
+.smooth-inset-box-shadow:hover{
+    background-color: #ca4300;
+    transition: all 1s;
+    color: white !important;
+    box-shadow: inset 0 0 10px 10px #494747;
+}
+.rotate-360-clockwise:hover{
+    color: #ca4300;
+    transition: all 1s;
+    -webkit-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+  }
+/* media  */
+@media screen and (max-width:1440px) {
+    .container {
+        max-width: 1367px;
+    }
+    .Careers-heading {
+        font-weight: 400;
+        color: white;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1024px){
+    .container {
+        max-width: 940px;
+    }
+    .Careers-heading {
+        font-weight: 400;
+        color: white;
+        font-size: 43px;
+    }
+}
+@media screen and (max-width:768px) {
+   
+    .container {
+        max-width: 580px;
+    }
+    .Careers-heading {
+        font-weight: 400;
+        color: white;
+        font-size: 42px;
+    }
+}
+@media screen and (max-width:425px) {
+  
+    .container {
+        max-width: 340px;
+    }
+    .Careers-heading {
+        font-weight: 400;
+        color: white;
+        font-size: 37px;
+    }
+}
+@media screen and (max-width:375px) {
+    .container {
+        max-width: 296px;
+    }
+    .Careers-heading {
+        font-weight: 400;
+        color: white;
+        font-size: 31px;
+    }
+}

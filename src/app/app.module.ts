@@ -12,6 +12,12 @@ import { NewsComponent } from './news/news.component';
 import { SearchComponent } from './search/search.component';
 import { ContactComponent } from './contact/contact.component';
 import { TabesComponent } from './tabes/tabes.component';
+import { VerifyComponent } from './verify/verify.component';
+import { HomeCardComponent } from './home-card/home-card.component';
+import { HomeCard1Component } from './home-card1/home-card1.component';
+import { HomeCard2Component } from './home-card2/home-card2.component';
+import { LabsComponent } from './labs/labs.component';
+import { HomeAboutComponent } from './home-about/home-about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +28,18 @@ import { TabesComponent } from './tabes/tabes.component';
     NewsComponent,
     SearchComponent,
     ContactComponent,
-    TabesComponent
+    TabesComponent,
+    VerifyComponent,
+    HomeCardComponent,
+    HomeCard1Component,
+    HomeCard2Component,
+    LabsComponent,
+    HomeAboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

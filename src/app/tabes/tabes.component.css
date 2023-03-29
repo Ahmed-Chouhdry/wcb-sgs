@@ -1,12 +1,5 @@
-
-/*
- CSS for the main interaction
-*/
-.header-tabs{
-    /* border-bottom: solid 1px black; */
-    position: sticky;
-top: 0;
-    background-color: white;
+.container {
+  max-width: 1510px;
 }
 .tabset > input[type="radio"] {
     position: absolute;
@@ -26,40 +19,455 @@ top: 0;
     display: block;
   }
   
- 
+ .careers{
+    margin-left: 200px;
+ }
   
   .tabset > label {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
-    padding: 15px 15px 25px;
+    padding: 20px 55px 25px;
     border: 1px solid transparent;
     border-bottom: 0;
     cursor: pointer;
     font-weight: 600;
   }
-  
-  
-  
-  .tabset > label:hover,
-  .tabset > input:focus + label {
-    color: #ca4300;
-    /* border-bottom:solid 2px #ca4300; */
-  }
-  
-  
-  
+
   .tabset > input:checked + label {
     /* border-color: #380fee; */
     border-bottom: 2px solid #ca4300;
+    color: #ca4300;
     margin-bottom: -1px;
+    
   }
+  .smooth-inset-box-shadow:hover{
+    background-color: #ca4300;
+    transition: all 1s;
+    color: white !important;
+    box-shadow: inset 0 0 10px 10px #494747;
+}
+
   
-  .tab-panel {
-    padding: 30px 0;
-    border-top: 1px solid #ccc;
-  }
-  
+
+.careers-bg{
+    background: linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/careers-bg.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+.Careers-mt{
+    padding-top: 217px;
+    padding-bottom: 50px;
+}
+.Careers-text{
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+.tab-developing-btn{
+    background-color:white;
+    border: 0;
+    height: 50px;
+    width: 280px;
+    color: black;
+font-weight: 500;
+margin-top: 15px;
+}
+.tab-developing-btn:hover{
+    color: #ca4300;
+}
+
  
+ 
+ 
+ 
+ /* cards css */
+ .card-outside{
+     background-color: #f2f2f2;
+     height: 200px;
+     margin-top: 50px;
+     
+ }
+ .card-title1  {
+     margin-top: 10px;
+     margin-bottom: 18px;
+     font-weight: bold;
+ }
+ .performance-col-4{
+  border: solid 1px #dcdcdc;
+  padding: 40px;
+
+  background-color: white;
+  margin-bottom: 50px;
   
+ }
+ .card-chf{
+    
+     font-weight: bold;
+     font-size: 18px;
+ }
+ .calunder{
+     margin-left: 10px;
+    
+ }
+ .red{
+     color: #57c785;
+     font-size: 22px;
+     font-weight: bold;
+ }
+ .btn-view{
+     height: 38px;
+     margin-top: 25px;
+     width: auto;
+ 
+     background: rgb(73 115 139 / 92%);
+     border: 0px;
+     color: white;
+ }
+
+
+ 
+
+
+ .inner-integrateds{
+     border: 1px solid;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ .card-reports{
+    
+     height: 80px;
+     border: solid 1px #dcdcdc;
+     font-weight: 800;
+     color: black;
+     
+ }
+ /* investing css */
+ .sgs-investing{
+     margin-top: 90px;
+     margin-bottom: 40px;
+ }
+ .investing-heading{
+    font-size: 22px;
+    font-weight: bold;
+ }
+ .purpose-d{
+   font-size: 16px;
+   margin-top: 15px;
+ }
+ 
+ .icons{
+     border-radius: 50%;
+     height: 25px;
+     width: 25px;
+     color: #ca4300;
+     border: 3px solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ /* button */
+ 
+ 
+ .btnss-int{
+     height: 56px;
+     width: 17%;
+     background:#ca4300;
+     border: 0px;
+     margin-left: 30px;
+     color: white;
+     margin-top: 25px;
+ }
+
+
+ 
+ /* this is css used to card margin and height  */
+ .section-3{
+  background-color:#d8e1e6 ;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.img-col-3{
+  width: 319px;
+}
+.section-3-col-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3-card{
+  width: 319px;
+  height: 319px;
+  border-radius: 0;
+background-color: #3c515b;
+display: flex;
+justify-content: center;
+align-items: center;
   
+}
+.section-2-h3{
+  font-weight: 700;
+  font-size: 30px;
+}
+.section-2-p{
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+ /* invester-news */
+ .inv-news{
+     margin-top: 90px;
+     font-weight: 700;
+ }
+ /* button views All news */
+ 
+ .btnsss-int{
+     height: 50px;
+     width: 31%;
+     background:#3c515b;;
+     border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 25px;
+     color: rgb(255, 252, 252);
+
+ }
+
+ 
+ /* button-coroportate */
+ 
+ .btnsss-coroportate{
+     height: 34px;
+     font-size: 12px;
+ color: #3c515b;
+     background:#d8e1e6;
+     border: 0px;
+     margin-left: 5px;
+     font-weight: 700;
+ }
+ 
+
+ /* sgs-signs agremnt */
+ .sgs-sign{
+     color: black;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ .card-text{
+    font-size: 16px;
+ }
+ .march-f{
+    font-size: 14px;
+    color: #3c515b;
+ }
+
+ .sgs-leader{
+     color: black;
+     font-weight: 700;
+     font-size: 20px;
+ }
+ /* investor .relations of used to margin */
+ .relationsa{
+     margin-top: 75px!important;
+ }
+ /* border of directoe Button */
+ .btn-border{
+     height: 50px;
+     margin-top: 25px;
+     width: 190px;
+     background-color: #ca4300;
+     color: white;
+     border: 0px;
+ }
+ 
+ 
+
+ 
+
+ 
+ /*operations council button */
+ .btn-council{
+     height: 50px;
+     margin-top: 25px;
+     border: 1px solid #8e2600!important;
+     width: 190px;
+     background:rgb(255 250 250);
+     border: 0px;
+     color: black;
+
+ }
+ 
+ .btn-council:hover {
+     color:#8e2600!important;
+     border: 1px solid rgb(18, 17, 17)!important;
+     font: bold;
+ }
+ .investor-p{
+  font-size: 16px;
+ }
+ .investor-cards{
+  background-color: white;
+ }
+
+ .card-img-top{
+  width: 250px;
+  border-radius: 50%;
   
+ }
+
+
+
+
+
+
+
+/* tabs-------------2  */
+.select-press{
+height: 50px;
+border-radius: 8px 8px 0px 0px;
+}
+.select-press:hover{
+    border-color: black;
+}
+
+.press-results{
+    color: #3c515b;
+}
+.search-btn{
+    color: #ca4300;
+}
+.search-shadow{
+    border-bottom: solid 1px;
+    box-shadow: 2px black;
+    padding: 7px;
+}
+.press-card-img{
+    width: 155px;
+    height: 100px;
+}
+.press-link{
+    font-size: 16px;
+    font-weight: 600;
+}
+.press-button{
+    color: #ca4300;
+}
+.press-link:hover{
+color: #b03500;
+}
+.boxes{
+  
+    transition: all 1s;  /* lets make it smooth */
+    
+}
+.boxes:hover{
+    /* background-color: crimson; */
+    transition: all .5s;
+    transform : translateY(-10px);
+}
+
+
+
+/* tebs-3  */
+.tab-reports{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.tab-link-card{
+    border: solid 1px #dcdcdc;
+    height: 70px;
+    padding-left: 20px;
+    background-color: white;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-cloud-arrow-down{
+    color: #ca4300;
+}
+.report-text{
+    color: rgb(73 115 139);
+}
+.reports-line{
+    background-color: rgb(73 115 139);
+    height: 1px;
+    width: 100%;
+}
+.report-seleter-bg{
+    background-color: #f2f2f2;
+}
+
+
+
+/* tab-4  */
+
+
+.Sustainability-btn{
+    height: 50px;
+    width: 160px;
+    background:#ca4300;
+    border: 0px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* tab-6  */
+.invested-bg{
+    background-color: #f6f9fc;
+    padding-bottom: 100px;
+}
+/* tab-7  */
+.Governance-p{
+    color: #ca4300;
+}
+.Governance-btn-1{
+    height: 50px;
+    width: 200px;
+    background:transparent;
+    border: solid 1px  #ca4300 !important;
+    border: 0px;
+    color: rgb(24, 23, 23);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+.Governance-btn-2{
+    height: 50px;
+    width: 200px;
+    background:#ca4300;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.Governance-btn-2:hover {
+    background-color: #b03500;;
+}
+.governance-text{
+    color: #ca4300;
+}
+.governance-text:hover{
+    border-bottom:solid 1px #ca4300;
+}
+ @media screen and (max-width:1440px) {
+  .container {
+      max-width: 1369px;
+  }
+}
+ @media screen and (max-width:1024px) {
+     .btn-int{
+         width: 237px;
+         height: 43px!important;
+     }
+     
+ }
