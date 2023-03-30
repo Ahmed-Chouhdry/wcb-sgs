@@ -95,7 +95,7 @@ a{
 }
 .section-2-h3{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
 }
 .about-margin{
     margin-top: 100px;
@@ -250,10 +250,144 @@ font-size: 18px;
     height: 50px;
     width: 200px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 650;
     background-color: #ca4300;
     color:white;
 }
+
+
+/* Tab 2  */
+
+.History-play-img{
+    background: linear-gradient(rgba(4, 4, 4, 0.452), rgba(1, 1, 1, 0.401)), url(../../assets/img/our-history-play-img.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.History-h3{
+font-size: 32px;
+font-weight: bold;
+}
+.history-card-img-top{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+
+}
+.History-year{
+    margin-bottom: 60px;
+}
+.History-p{
+    font-size: 16px;
+    color: #555;
+}
+
+/* Tab 3  */
+.icon-future{
+    color: #ca4300;
+    width: 35px !important;
+}
+.future-text-1{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.future-text-2{
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+.future-check{
+    line-height: 22px;
+}
+.Ambitions{
+    text-decoration: none;
+    color: #ca4300;
+}
+.Ambitions:hover{
+    border-bottom: solid 1px #ca4300;
+}
+li{
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* tab 4  */
+.select-press{
+    height: 50px;
+    border-radius: 8px 8px 0px 0px;
+    }
+    .select-press:hover{
+        border-color: black;
+    }
+    
+    .press-results{
+        color: #3c515b;
+    }
+    .search-btn{
+        color: #ca4300;
+    }
+    .search-shadow{
+        border-bottom: solid 1px;
+        box-shadow: 2px black;
+        padding: 7px;
+    }
+    .press-card-img{
+        width: 155px;
+        height: 100px;
+    }
+    .press-link{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .press-button{
+        color: #ca4300;
+    }
+    .press-link:hover{
+    color: #b03500;
+    }
+
+
+
+    .tab-reports{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .tab-link-card{
+        border: solid 1px #dcdcdc;
+        height: 70px;
+        padding-left: 20px;
+        background-color: white;
+        padding-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bi-cloud-arrow-down{
+        color: #ca4300;
+    }
+    .report-text{
+        color: rgb(73 115 139);
+    }
+    .reports-line{
+        background-color: rgb(73 115 139);
+        height: 1px;
+        width: 100%;
+    }
+    .report-seleter-bg{
+        background-color: #f2f2f2;
+    }
+    
 .boxe{
   
     transition: all 1s;  /* lets make it smooth */
