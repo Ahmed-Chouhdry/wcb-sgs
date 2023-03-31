@@ -63,7 +63,7 @@ h1 {
 .card-text-1 {
     color: #49738b;
     margin: 0 0 20px;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .card-text-2 {
@@ -276,6 +276,24 @@ h1 {
     .section-2-card{
         width: 14rem;
     }   
+  
+}
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 965px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 46px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
+    .heading-text{
+        color: #fff;
+        font-size: 23px;
+        line-height: 1.05;
+        font-weight: 600;
+    }
 }
 @media screen and (max-width:991px) {
     .section-2-card{
